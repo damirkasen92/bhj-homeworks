@@ -14,3 +14,13 @@ dropdownLink.forEach(e => {
         event.preventDefault();
     });
 });
+
+/*let body = document.querySelector('body');
+
+body.addEventListener('click', function(event) {
+    if (event.target.closest('.dropdown') == null) return false;
+    event.target.closest('.dropdown').querySelector('.dropdown__list').classList.toggle('dropdown__list_active');
+    event.target.closest('.dropdown').querySelector('.dropdown__value').textContent = event.target.textContent;
+    if (event.target.closest('.dropdown__list') != null) event.target.closest('.dropdown__list').classList.remove('dropdown__list_active');
+    event.preventDefault();
+});*/
